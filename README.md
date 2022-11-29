@@ -1,3 +1,0 @@
-# TheGamerList
-
-NEXT JS Project
