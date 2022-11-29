@@ -37,3 +37,6 @@ next-env.d.ts
 
 #trace
 /trace/
+
+#eslint
+.eslint.json
