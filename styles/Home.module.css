@@ -22,8 +22,6 @@
     color:rgb(255, 255, 255);
 }
 
-
-
 .search_bar{
     border-width: 2px;    
 }
@@ -34,7 +32,7 @@
     color: rgb(255, 255, 255);
     padding: 0.7rem 1rem;
     font-size: 1rem;
-    width: 12rem;            
+    width: 18rem;            
 }
 
 .load_animation lottie-player{

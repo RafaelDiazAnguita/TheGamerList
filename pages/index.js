@@ -19,14 +19,14 @@ export default function Home() {
   const [to, setTo] = useState(null);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(0);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(false);  
 
   useEffect(() => {
     fetch(
       `/api/games?page=${pageIndex}&title=${gameTitle}&from=${from}&to=${to}`
     )
       .then((res) => res.json())
-      .then((data) => {
+      .then((data) => {        
         setData(data);
         setError(data.error);
       });
@@ -40,6 +40,8 @@ export default function Home() {
     const dates = document.querySelectorAll(".date_picker input");
     const from = dates[0].value;
     const to = dates[1].value;
+
+    setPageIndex(0)
 
     if ((from != "" && to == "") || (to != "" && from == "")) {
       alert("From and To needed");

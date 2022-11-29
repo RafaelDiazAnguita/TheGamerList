@@ -14,7 +14,8 @@ export default function GameCard(props) {
           </div>
           <div className="col-8 px-3">
             <p className={style.card_title}>{props.game.title}</p>
-            <p className={style.card_info}>{props.game.date}</p>
+            <p className={style.card_info}>{props.game.release_date}</p>
+            <p className={style.card_info}>{props.game.publisher}</p>
             <p className={style.card_info}>{props.game.platform}</p>
           </div>
         </div>
