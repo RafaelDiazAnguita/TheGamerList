@@ -1,0 +1,39 @@
+.card{
+    background-color: rgb(255, 255, 255);    
+    -webkit-box-shadow: 0px 7px 25px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 7px 25px -10px rgba(0,0,0,0.3);
+    box-shadow: 0px 7px 25px -10px rgba(0,0,0,0.3);        
+}
+
+.card_title{
+    font-weight: 600;
+    color: black;
+    transition: all 0.5s;
+    font-size: 1.5rem;
+}
+
+.card_info{
+    font-size: 1rem;
+    color: black;
+}
+
+.card_button{
+    border: 0;
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    padding: 1rem 5rem;
+    font-size: 1rem;
+    transition: all 0.5s;        
+}
+
+
+.card_image{
+    max-width: 100%;  
+    max-height: 10rem;
+}
+
+.image_col{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
